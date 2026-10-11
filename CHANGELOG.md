@@ -2,6 +2,16 @@
 
 One line per main change. Newest first.
 
+## 0.9.13 (2026-10-10)
+- Use Claude or OpenAI with your own API key, with a spending limit for each (Server ▸ API keys and spending…).
+- Hand tasks to Claude Code or Codex installed on this computer (Agents menu). They only read your files unless you allow changes.
+- Pause a long chat and resume it later without the server rereading it all (on servers that offer it).
+- Roles: let the chat model hand work to other models, on any of your servers (Server ▸ Roles…).
+- Summaries of long chats can be written by a model on another server.
+- The setup program hands the new enrollment straight to the app.
+- Feedback the server can't accept now tells you why, instead of being retried forever.
+- Clearer Help, including the getting-started guide.
+
 ## 0.9.12 (2026-10-08)
 - Shorter, plainer text throughout the app; the details moved to Help.
 - Press F1 while pointing at any control or menu to open its Help page.
