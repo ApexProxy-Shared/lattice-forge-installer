@@ -2,6 +2,10 @@
 
 One line per main change. Newest first.
 
+## 0.9.14 (2026-10-15)
+- The terminal chat and lattice run now use tools only with models the server says support them, like the app.
+- Pause and Resume are more reliable: a saved chat resumes only on the server, account and chat it came from, and Send waits while a chat is being saved.
+
 ## 0.9.13 (2026-10-10)
 - Use Claude or OpenAI with your own API key, with a spending limit for each (Server ▸ API keys and spending…).
 - Hand tasks to Claude Code or Codex installed on this computer (Agents menu). They only read your files unless you allow changes.
