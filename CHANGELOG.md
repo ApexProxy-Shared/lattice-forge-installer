@@ -2,6 +2,14 @@
 
 One line per main change. Newest first.
 
+## 0.9.15 (2026-10-21)
+- Long waits no longer drop the connection: the app now answers the server's connection checks over a second connection held open for the whole reply.
+- If the server gives up a reply because the app's answers stopped reaching it, the app says so in plain words and offers Retry.
+- Roles can work in the background while the chat carries on; their answer is given to the chat when it is ready, and you can check on or cancel a background job.
+- Roles can read files in your project.
+- The app stops a model that keeps repeating the same tool calls.
+- Claude Code and Codex can be used as roles.
+
 ## 0.9.14 (2026-10-15)
 - The terminal chat and lattice run now use tools only with models the server says support them, like the app.
 - Pause and Resume are more reliable: a saved chat resumes only on the server, account and chat it came from, and Send waits while a chat is being saved.
