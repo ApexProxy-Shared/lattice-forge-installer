@@ -2,6 +2,11 @@
 
 One line per main change. Newest first.
 
+## 0.9.16 (2026-11-01)
+- Account ▸ Saved sign-ins… lists the accounts saved on this computer, and you can remove one.
+- Fixed: Account ▸ Enroll this computer… closed the app instead of opening the enrollment window.
+- Fixed: Account ▸ Devices… wrongly said "ID does not match" for this computer.
+
 ## 0.9.15 (2026-10-21)
 - Long waits no longer drop the connection: the app now answers the server's connection checks over a second connection held open for the whole reply.
 - If the server gives up a reply because the app's answers stopped reaching it, the app says so in plain words and offers Retry.
