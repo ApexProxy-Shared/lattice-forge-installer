@@ -2,6 +2,12 @@
 
 One short line per change. Newest first.
 
+## 0.9.18 (2026-11-12)
+- The programs are now named LatticeForgeDesktop.exe (the app) and LatticeForgeTerminal.exe (the terminal command).
+- Shortcuts to the old program names are updated automatically.
+- The update download is about 15% smaller.
+- Install from file also accepts an update zip with the version in its name.
+
 ## 0.9.17 (2026-11-12)
 - New: the Assistant, a chat that remembers you between conversations (Sessions ▸ New assistant chat).
 - The Assistant keeps its memories and conversations in its own folder in your user folder.
