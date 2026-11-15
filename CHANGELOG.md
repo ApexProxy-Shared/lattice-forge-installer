@@ -2,6 +2,23 @@
 
 One short line per change. Newest first.
 
+## 0.9.19 (2026-11-15)
+- New context mode Private: nothing is kept on the server. New chats start in Private.
+- Raw is now kept on the server and can be found later; the model can search past chats in it.
+- Summarizer Disabled is now part of Raw.
+- Conversations saved on Raw by earlier versions open on Private.
+- Lattice-Lite and the API Relay always use Private.
+- The API Relay removes any mode setting a program sends.
+- When the server needs a newer version, the app stops its background checks and only looks for the update.
+- Background checks pause after 6 hours without use and resume when you click or type.
+- A failing background check retries less often (at most every 5 minutes).
+- Lattice-Lite: Diagnose asks which tests to run.
+- Lattice-Lite: Diagnose shows each test's progress and result in the chat as it runs.
+- Lattice-Lite: you can chat with the model while Diagnose runs.
+- Lattice-Lite: replies are formatted like the full app, one message at a time.
+- Lattice-Lite: the chat no longer jumps to the top while a reply is written.
+- Lattice-Lite: long lines, paths and code wrap instead of running off the side.
+
 ## 0.9.18 (2026-11-12)
 - The programs are now named LatticeForgeDesktop.exe (the app) and LatticeForgeTerminal.exe (the terminal command).
 - Shortcuts to the old program names are updated automatically.
