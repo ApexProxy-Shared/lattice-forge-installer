@@ -2,6 +2,12 @@
 
 One short line per change. Newest first.
 
+## 0.9.20 (2026-11-20)
+
+- Long lines in code blocks wrap in the chat.
+- Add any OpenAI-compatible server with its own API key.
+- The Servers list and Connection status show your username.
+
 ## 0.9.19 (2026-11-15)
 - New context mode Private: nothing is kept on the server. New chats start in Private.
 - Raw is now kept on the server and can be found later; the model can search past chats in it.
